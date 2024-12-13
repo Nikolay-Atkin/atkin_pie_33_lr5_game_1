@@ -77,12 +77,16 @@ p{
     color: #D5D5D5;
     font-family:MyCustomFont;
     font-size: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
    
 
 }
 @media (max-width:500px) {
     p{
         font-size: 16px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     button{
