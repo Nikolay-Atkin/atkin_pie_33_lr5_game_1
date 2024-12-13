@@ -18,7 +18,7 @@ function Variant_3(){
 function game(){
     switch(combo){
         case '1':
-            document.getElementById("img").src = "../img/1.jpg"
+            document.getElementById("img").src = "img/1.jpg"
             document.getElementById("text").innerHTML =  "После долгого пути, герой зашёл в таверну 'Уютный Очаг'. Теплое освещение, ароматы жареного мяса и пряностей,располагалb к отдыху. Но его взгляд сразу же зацепился за девушку, сидящую в одиночестве в углу. Её неподвижность и таинственная аура выделяли её. Чуть поодаль, за соседним столом, двое крепких мужчин с серьёзными лицами что-то бурно обсуждали, жестикулируя и понижая голос до почти шёпота. Напряжённость их разговора привлекла внимание героя. Вечер обещал быть интересным.";
             document.getElementById("button_1").innerHTML = "Поговорить с девушкой";
             document.getElementById("button_2").style.display = "inline";
